@@ -1,0 +1,135 @@
+PS C:\Users\purus\OneDrive\Desktop\github> git clone https://github.com/S-Purusothaman/github.git
+Cloning into 'github'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+PS C:\Users\purus\OneDrive\Desktop\github> cd github
+PS C:\Users\purus\OneDrive\Desktop\github\github> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\purus\OneDrive\Desktop\github\github> git add text1.txt
+fatal: pathspec 'text1.txt' did not match any files
+PS C:\Users\purus\OneDrive\Desktop\github\github> git test1.txt
+git: 'test1.txt' is not a git command. See 'git --help'.
+PS C:\Users\purus\OneDrive\Desktop\github\github> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\purus\OneDrive\Desktop\github\github> git add test1.txt
+PS C:\Users\purus\OneDrive\Desktop\github\github> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test1.txt
+
+PS C:\Users\purus\OneDrive\Desktop\github\github> git commit -m "Test1.txt file added"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'purus@PURUSOTH.(none)')
+PS C:\Users\purus\OneDrive\Desktop\github\github> git commit -m "test1.txt file added"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'purus@PURUSOTH.(none)')
+PS C:\Users\purus\OneDrive\Desktop\github\github> git push origin main
+info: please complete authentication in your browser...
+Everything up-to-date
+PS C:\Users\purus\OneDrive\Desktop\github\github> git push origin main
+Everything up-to-date
+PS C:\Users\purus\OneDrive\Desktop\github\github> git commit -m "Test1.txt file added"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'purus@PURUSOTH.(none)')
+PS C:\Users\purus\OneDrive\Desktop\github\github> https://github.com/S-Purusothaman/github.git
+https://github.com/S-Purusothaman/github.git : The term 'https://github.com/S-Purusothaman/github.git' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ https://github.com/S-Purusothaman/github.git
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (https://github....aman/github.git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\purus\OneDrive\Desktop\github\github> git commit -m "test1.txt file added"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'purus@PURUSOTH.(none)')
+PS C:\Users\purus\OneDrive\Desktop\github\github>
+PS C:\Users\purus\OneDrive\Desktop\github\github> git push origin --force main
+Everything up-to-date
+PS C:\Users\purus\OneDrive\Desktop\github\github> git push orign --force
+fatal: 'orign' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS C:\Users\purus\OneDrive\Desktop\github\github> git push origin --force main
+Everything up-to-date
+PS C:\Users\purus\OneDrive\Desktop\github\github> git config --global user.email "purusothece7@gmail.com"
+PS C:\Users\purus\OneDrive\Desktop\github\github> git config --global user.name "Purusoth"
+PS C:\Users\purus\OneDrive\Desktop\github\github> git commit -m "test1.txt file added"
+[main 7a69b2b] test1.txt file added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test1.txt
+PS C:\Users\purus\OneDrive\Desktop\github\github> git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 274 bytes | 274.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/S-Purusothaman/github.git
+   b9b1809..7a69b2b  main -> main
+PS C:\Users\purus\OneDrive\Desktop\github\github>
